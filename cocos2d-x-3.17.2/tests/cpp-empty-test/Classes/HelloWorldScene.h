@@ -38,8 +38,6 @@ public:
     // a selector callback
     void menuCloseCallback(Ref* sender);
 
-	void addMonster(float dt);
-
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };
