@@ -5,7 +5,7 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="win32">
+    <Filter Include="Classes\win32">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
@@ -18,10 +18,7 @@
       <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>win32</Filter>
-    </ClCompile>
-    <ClCompile Include="TouchScene.cpp">
-      <Filter>Classes</Filter>
+      <Filter>Classes\win32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,12 +29,9 @@
       <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>win32</Filter>
+      <Filter>Classes\win32</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AppMacros.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="TouchScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>

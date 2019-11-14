@@ -44,7 +44,7 @@ bool HelloWorld::init()
     }
     
     auto visibleSize = Director::getInstance()->getVisibleSize();
-	auto origin = Director::getInstance()->getVisibleOrigin();
+    auto origin = Director::getInstance()->getVisibleOrigin();
 
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -66,12 +66,10 @@ bool HelloWorld::init()
     /////////////////////////////
     // 3. add your codes below...
 
-
-
     // add a label shows "Hello World"
     // create and initialize a label
 
-    auto label = Label::createWithTTF("DEMO", "fonts/Marker Felt.ttf", TITLE_FONT_SIZE);
+    auto label = Label::createWithTTF("Hello World", "fonts/arial.ttf", TITLE_FONT_SIZE);
 
     // position the label on the center of the screen
     label->setPosition(origin.x + visibleSize.width/2,
@@ -99,9 +97,7 @@ bool HelloWorld::init()
     return true;
 }
 
-
 void HelloWorld::menuCloseCallback(Ref* sender)
 {
     Director::getInstance()->end();
 }
-

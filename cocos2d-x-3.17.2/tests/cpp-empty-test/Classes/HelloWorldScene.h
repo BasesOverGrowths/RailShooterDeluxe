@@ -29,9 +29,8 @@
 
 class HelloWorld : public cocos2d::Scene
 {
-
 public:
-	virtual bool init() override;
+    virtual bool init() override;
 
     static cocos2d::Scene* scene();
 
